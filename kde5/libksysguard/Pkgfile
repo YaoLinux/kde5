@@ -1,4 +1,4 @@
-# Depends on: extra-cmake-modules kdoctools plasma-framework 
+# Depends on: extra-cmake-modules kdoctools plasma-framework qtwebengine
 
 description="Libksysguard "
 url="https://www.kde.org/"
@@ -7,6 +7,7 @@ contributors="Pierre B"
 
 name=libksysguard
 version=5.15.2
+release=2
 
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 
