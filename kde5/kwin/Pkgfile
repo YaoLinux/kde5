@@ -1,4 +1,4 @@
-# Depends on: libinput qtsensors kscreenlocker plasma-framework kcmutils breeze kinit xcb-util-cursor knewstuff
+# Depends on: libinput qtsensors qtmultimedia qtquickcontrols qtvirtualkeyboard kscreenlocker plasma-framework kcmutils breeze kinit xcb-util-cursor knewstuff
 
 description="KDE Window manager "
 url="https://www.kde.org/"
@@ -9,6 +9,7 @@ run=(libepoxy libxcb xcb-util-cursor xcb-util-image xcb-util-keysyms xdg-utils)
 
 name=kwin
 version=5.15.2
+release=2
 
 source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 
