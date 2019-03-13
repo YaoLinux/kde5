@@ -1,4 +1,4 @@
-# Depends on: plasma-desktop kholidays krossi qtwebengine
+# Depends on: plasma-desktop kholidays kross qtwebengine
 
 description="All kind of addons to improve your Plasma experience "
 url="https://www.kde.org/"
@@ -9,7 +9,7 @@ run=(xdg-utils)
 
 name=kdeplasma-addons
 version=5.15.2
-release=2
+release=3
 
 source=(http://download.kde.org/stable/plasma/${version}/${name}-$version.tar.xz)
 
