@@ -1,4 +1,4 @@
-# Depends on: qtsvg extra-cmake-modules kconfig kcrash ki18n kjobwidgets kio kparts ktexteditor kwindowsystem kxmlgui kiconthemes kactivities kdoctools plasma-framework knewstuff threadweaver kitemmodels kded hicolor-icon-theme
+# Depends on: qtsvg extra-cmake-modules kconfig kcrash ki18n kjobwidgets kio kparts ktexteditor kwindowsystem kxmlgui kiconthemes kactivities kwallet kdoctools plasma-framework knewstuff threadweaver kitemmodels kded hicolor-icon-theme
 
 description="Text editor of KDE"
 url="https://www.kde.org/"
@@ -7,6 +7,7 @@ contributors="Pierre B"
 
 name=kate
 version=18.12.3
+release=2
 
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
