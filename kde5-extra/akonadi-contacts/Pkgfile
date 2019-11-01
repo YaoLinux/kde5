@@ -2,8 +2,8 @@
 
 description="Akonadi contacts "
 url="https://projects.kde.org/kdepimlibs"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=akonadi-contacts
 version=18.12.3
