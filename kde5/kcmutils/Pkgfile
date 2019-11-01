@@ -1,9 +1,9 @@
-# Depends on: qtbase kauth kconfig kconfigwidgets kcoreaddons kdeclarative ki18n kiconthemes kitemviews kservice kwidgetsaddons kxmlgui pciutils
+makedepends=(qtbase kauth kconfig kconfigwidgets kcoreaddons kdeclarative ki18n kiconthemes kitemviews kservice kwidgetsaddons kxmlgui pciutils)
 
 description="Utilities for interacting with KCModules "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kcmutils
 version=5.56.0
