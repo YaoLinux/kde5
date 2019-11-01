@@ -1,9 +1,9 @@
-# Depends on: bluedevil 
+makedepends=(bluedevil )
 
 description="KHotKeys "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=khotkeys
 version=5.15.2
