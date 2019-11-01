@@ -2,11 +2,12 @@ makedepends=(kio extra-cmake-modules libksane kdoctools)
 
 description="image Scanning Application for KDE"
 url="http://www.kde.org/applications/graphics/skanlite"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
 name=skanlite
-version=2.1.0
+version=2.1.0.1
 
 source=(http://download.kde.org/stable/$name/${version%.*}/$name-$version.tar.xz)
 
