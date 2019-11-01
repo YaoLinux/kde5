@@ -1,9 +1,9 @@
-# Depends on: karchive docbook-xml docbook-xsl libxslt perl-uri ki18n
+makedepends=(karchive docbook-xml docbook-xsl libxslt perl-uri ki18n)
 
 description="Documentation generation from docbook"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kdoctools
 version=5.56.0
