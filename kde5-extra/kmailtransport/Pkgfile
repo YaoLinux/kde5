@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules boost python kdoctools kdelibs4support kcmutils akonadi-mime ksmtp libkgapi
+makedepends=(extra-cmake-modules boost python kdoctools kdelibs4support kcmutils akonadi-mime ksmtp libkgapi)
 
 description="Mail Transport Service "
 url="https://projects.kde.org/projects/kde/pim/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 name=kmailtransport
 version=18.12.3
 
