@@ -1,9 +1,9 @@
-# Depends on: kcmutils kdoctools frameworkintegration kdecoration kwayland hicolor-icon-theme oxygen-icons5
+makedepends=(kcmutils kdoctools frameworkintegration kdecoration kwayland hicolor-icon-theme oxygen-icons5)
 
 description="KDE Oxygen style "
 url="https://www.kde.org/"
-packager="itnut <tnut@nutyx.org"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 run=(oxygen-icons5)
 
