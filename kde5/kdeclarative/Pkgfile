@@ -1,9 +1,9 @@
-# Depends on: kconfig kcoreaddons kglobalaccel ki18n kiconthemes kio kpackage kservice kwidgetsaddons kwindowsystem kcompletion libepoxy
+makedepends=(kconfig kcoreaddons kglobalaccel ki18n kiconthemes kio kpackage kservice kwidgetsaddons kwindowsystem kcompletion libepoxy)
 
 description="Provides integration of QML and KDE Frameworks"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 
 name=kdeclarative
