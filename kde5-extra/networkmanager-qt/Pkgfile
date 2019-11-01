@@ -1,9 +1,9 @@
-# Depends on: cmake extra-cmake-modules qtbase qttools networkmanager doxygen
+makedepends=(cmake extra-cmake-modules qtbase qttools networkmanager doxygen)
 
 description="QT wrapper for NetworkManager API"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=networkmanager-qt
 version=5.56.0
