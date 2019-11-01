@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules boost kdoctools kxmlrpcclient syndication kcalcore
+makedepends=(extra-cmake-modules boost kdoctools kxmlrpcclient syndication kcalcore)
 
 description="A blogging library for KDE "
 url="https://projects.kde.org/kblog"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 name=kblog
 version=18.12.3
 
