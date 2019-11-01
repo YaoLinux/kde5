@@ -1,9 +1,9 @@
-# Depends on: milou kwallet mobile-broadband-provider-info modemmanager-qt networkmanager-qt qca-qt
+makedepends=(milou kwallet mobile-broadband-provider-info modemmanager-qt networkmanager-qt qca-qt)
 
 description="Plasma applet written in QML for managing network connections"
 url="https://www.kde.org/"
-packager="thut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=plasma-nm
 version=5.15.2
