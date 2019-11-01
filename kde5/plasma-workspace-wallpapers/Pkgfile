@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules
+makedepends=(extra-cmake-modules)
 
 description="Additional wallpapers for the Plasma Workspace "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=plasma-workspace-wallpapers
 version=5.15.2
