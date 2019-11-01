@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules kconfig kcoreaddons ki18n kio kcodecs
+makedepends=(extra-cmake-modules kconfig kcoreaddons ki18n kio kcodecs)
 
 description="libkcontacts - new address book API for KDE "
 url="https://projects.kde.org/kcontacts"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 name=kcontacts
 version=18.12.3
 
