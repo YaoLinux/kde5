@@ -1,9 +1,9 @@
-# Depends on: kcoreaddons kwindowsystem
+makedepends=(kcoreaddons kwindowsystem)
 
 description="Support for application crash analysis and bug report from apps "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kcrash
 version=5.56.0
