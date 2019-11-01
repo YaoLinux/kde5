@@ -1,9 +1,9 @@
-# Depends on: kconfig kcoreaddons kcrash kdbusaddons kinit kservice kdoctools
+makedepends=(kconfig kcoreaddons kcrash kdbusaddons kinit kservice kdoctools)
 
 description="Extensible deamon for providing system level services "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kded
 version=5.56.0
