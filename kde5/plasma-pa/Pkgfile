@@ -1,9 +1,9 @@
-# Depends on: libcanberra pulseaudio plasma-workspace 
+makedepends=(libcanberra pulseaudio plasma-workspace )
 
 description="Plasma applet for audio volume management using PulseAudio "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=plasma-pa
 version=5.15.2
