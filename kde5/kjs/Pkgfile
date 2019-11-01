@@ -1,9 +1,9 @@
-# Depends on: kdoctools pcre
+makedepends=(kdoctools pcre)
 
 description="Support for JS scripting in applications "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kjs
 version=5.56.0
