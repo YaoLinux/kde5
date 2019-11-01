@@ -1,9 +1,9 @@
-# Depends on: karchive kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kglobalaccel ki18n kiconthemes kio kjobwidgets kjs knotifications kparts kservice ktextwidgets kwallet kwidgetsaddons kwindowsystem kxmlgui sonnet giflib libjpeg-turbo libpng phonon-qt giflib openssl
+makedepends=(karchive kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kglobalaccel ki18n kiconthemes kio kjobwidgets kjs knotifications kparts kservice ktextwidgets kwallet kwidgetsaddons kwindowsystem kxmlgui sonnet giflib libjpeg-turbo libpng phonon-qt giflib openssl)
 
 description="KHTML APIs "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=khtml
 version=5.56.0
