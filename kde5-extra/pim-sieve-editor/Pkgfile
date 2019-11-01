@@ -2,8 +2,8 @@
 
 description="Mail sieve editor"
 url="https://projects.kde.org/pim-sieve-editor"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=pim-sieve-editor
 version=18.12.3
