@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules qtbase qttools
+makedepends=(extra-cmake-modules qtbase qttools)
 
 description="Provide a collection of methods to manipulate strings using various encodings "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kcodecs
 version=5.56.0
