@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules kdoctools cmake qtbase qttools modemmanager doxygen
+makedepends=(extra-cmake-modules kdoctools cmake qtbase qttools modemmanager doxygen)
 
 description="QT wrapper for ModemManager DBus API"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=modemmanager-qt
 version=5.56.0
