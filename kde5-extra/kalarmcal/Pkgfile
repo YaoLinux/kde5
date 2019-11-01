@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules boost kdoctools akonadi kcalcore kcalutils kholidays kidentitymanagement
+makedepends=(extra-cmake-modules boost kdoctools akonadi kcalcore kcalutils kholidays kidentitymanagement)
 
 description="Library to provides access and handling of KAlarm calendar data "
 url="https://projects.kde.org/kalarcal"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kalarmcal
 version=18.12.3
