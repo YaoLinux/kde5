@@ -1,9 +1,9 @@
-# Depends on: kactivities-stats plasma-workspace khtml kdoctools
+makedepends=(kactivities-stats plasma-workspace khtml kdoctools)
 
 description="KDE system settings "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=systemsettings
 version=5.15.2
