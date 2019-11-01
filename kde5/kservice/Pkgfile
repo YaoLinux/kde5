@@ -1,9 +1,9 @@
-# Depends on: kconfig kcoreaddons kcrash kdbusaddons ki18n kdoctools
+makedepends=(kconfig kcoreaddons kcrash kdbusaddons ki18n kdoctools)
 
 description="Advanced plugin and service introspection "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kservice
 version=5.56.0
