@@ -1,9 +1,9 @@
-# Depends on: plasma-workspace polkit-kde-agent-1 kscreen kactivities kidletime solid kglobalaccel kio knotifyconfig kwayland knotifications bluez-qt
+makedepends=(plasma-workspace polkit-kde-agent-1 kscreen kactivities kidletime solid kglobalaccel kio knotifyconfig kwayland knotifications bluez-qt)
 
 description="Manages the power consumption settings of a Plasma Shell"
 url="https://www.kde.org/"
-packager="thut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=powerdevil
 version=5.15.2
