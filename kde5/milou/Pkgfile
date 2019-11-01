@@ -1,9 +1,9 @@
-# Depends on: kdoctools krunner
+makedepends=(kdoctools krunner)
 
 description="A dedicated search application built on top of Baloo "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=milou
 version=5.15.2
