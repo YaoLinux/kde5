@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules qtbase bzip2 xz zlib
+makedepends=(extra-cmake-modules qtbase bzip2 xz zlib)
 
 description="Qt 5 addon providing access to numerous types of archives "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=karchive
 version=5.56.0
