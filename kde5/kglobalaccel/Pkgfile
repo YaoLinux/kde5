@@ -1,9 +1,9 @@
-# Depends on: kconfig kcoreaddons kcrash kdbusaddons kwindowsystem libxcb xcb-util-keysyms kservice
+makedepends=(kconfig kcoreaddons kcrash kdbusaddons kwindowsystem libxcb xcb-util-keysyms kservice)
 
 description="Add support for global workspace shortcuts "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kglobalaccel
 version=5.56.0
