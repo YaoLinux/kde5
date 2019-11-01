@@ -1,9 +1,9 @@
-# Depends on: boost extra-cmake-modules kdoctools hicolor-icon-theme kontactinterface mailcommon
+makedepends=(boost extra-cmake-modules kdoctools hicolor-icon-theme kontactinterface mailcommon)
 
 description="KDE Personal Information Manager"
 url="https://projects.kde.org/kontact"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kontact
 version=18.12.3
