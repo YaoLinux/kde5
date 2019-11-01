@@ -1,8 +1,8 @@
-# Depends on: opencolorio libraw qtmultimedia poppler-qt eigen3 extra-cmake-modules hicolor-icon-theme kdelibs4support libksane libkexiv2
+makedepends=(opencolorio libraw qtmultimedia poppler-qt eigen3 extra-cmake-modules hicolor-icon-theme kdelibs4support libksane libkexiv2)
 
 description="Painting Application"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
+packager="Yaolinux Team"
 
 name=krita
 version=4.1.7
