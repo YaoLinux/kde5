@@ -1,9 +1,9 @@
-# Depends on: kcrash kdbusaddons kiconthemes kdoctools
+makedepends=(kcrash kdbusaddons kiconthemes kdoctools)
 
 description="Daemon providing a polkit authentication UI for KDE"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=polkit-kde-agent-1
 version=5.15.2
