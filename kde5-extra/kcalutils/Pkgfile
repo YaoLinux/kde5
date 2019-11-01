@@ -2,8 +2,8 @@
 
 description="The KDE calendar utility library "
 url="https://projects.kde.org/projects/kde/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 name=kcalutils
 version=18.12.3
 
