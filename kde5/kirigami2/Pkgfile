@@ -1,8 +1,8 @@
-# Depends on: qtbase qtgraphicaleffects qtquickcontrols2 qttools qtsvg extra-cmake-modules
+makedepends=(qtbase qtgraphicaleffects qtquickcontrols2 qttools qtsvg extra-cmake-modules)
 
 description="A QtQuick based components set"
 url="https://community.kde.org/Frameworks"
-packager="tnut <tnut@nutyx.org>"
+packager="Yaolinux Team"
 
 name=kirigami2
 version=5.56.0
