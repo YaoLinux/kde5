@@ -1,4 +1,4 @@
-# Depends on: breeze python-cairo sassc
+makedepends=(breeze python-cairo sassc)
 
 description="Breeze widget theme for GTK 2 and 3"
 url="https://quickgit.kde.org/"
