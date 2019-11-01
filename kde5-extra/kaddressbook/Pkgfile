@@ -1,9 +1,9 @@
-# Depends on: boost extra-cmake-modules kdoctools kdepim-runtime kontactinterface mailcommon kdesignerplugin  
+makedepends=(boost extra-cmake-modules kdoctools kdepim-runtime kontactinterface mailcommon kdesignerplugin  )
 
 description="KDE contact manager"
 url="https://projects.kde.org/kadressbook"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kaddressbook
 version=18.12.3
