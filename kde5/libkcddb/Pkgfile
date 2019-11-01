@@ -1,9 +1,9 @@
-# Depends on: python qtbase extra-cmake-modules kconfig kdoctools kcodecs ki18n kio kwidgetsaddons kxmlgui 
+makedepends=(python qtbase extra-cmake-modules kconfig kdoctools kcodecs ki18n kio kwidgetsaddons kxmlgui )
 
 description="Used to retrieve audio CD meta data from the interne"
 url="http://sourceforge.net/projects/libkcddb/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=libkcddb
 version=18.12.3
