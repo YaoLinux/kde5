@@ -1,9 +1,9 @@
-# Depends on: kconfig kcoreaddons ki18n kitemviews kservice kwidgetsaddons
+makedepends=(kconfig kcoreaddons ki18n kitemviews kservice kwidgetsaddons)
 
 description="A library that provides access to all contacts and the people who hold them "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kpeople
 version=5.56.0
