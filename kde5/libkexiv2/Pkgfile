@@ -1,9 +1,9 @@
-# Depends on: exiv2 qtbase extra-cmake-modules
+makedepends=(exiv2 qtbase extra-cmake-modules)
 
 description="A library to manipulate pictures metadata"
 url="http://www.kde.org"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=libkexiv2
 version=18.12.3
