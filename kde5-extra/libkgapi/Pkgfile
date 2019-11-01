@@ -2,8 +2,8 @@
 
 description="A KDE-based library for accessing various Google services via their public API "
 url="https://projects.kde.org/projects/extragear/libs/libkgapi"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=libkgapi
 version=18.12.3
