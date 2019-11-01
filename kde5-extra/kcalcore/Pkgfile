@@ -2,8 +2,8 @@
 
 description="The KDE calendar access library "
 url="https://projects.kde.org/kcalcore"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kcalcore
 version=18.12.3
