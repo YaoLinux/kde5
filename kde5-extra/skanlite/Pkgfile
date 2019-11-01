@@ -1,9 +1,9 @@
-# Depends on: kio extra-cmake-modules libksane kdoctools
+makedepends=(kio extra-cmake-modules libksane kdoctools)
 
 description="image Scanning Application for KDE"
 url="http://www.kde.org/applications/graphics/skanlite"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B."
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=skanlite
 version=2.1.0
