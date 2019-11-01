@@ -1,9 +1,9 @@
-# Depends on: qtbase kcodecs kconfig kcoreaddons kiconthemes kwidgetsaddons kconfigwidgets  kxmlgui
+makedepends=(qtbase kcodecs kconfig kcoreaddons kiconthemes kwidgetsaddons kconfigwidgets  kxmlgui)
 
 description="Support for bookmarks and the XBEL format "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kbookmarks
 version=5.56.0
