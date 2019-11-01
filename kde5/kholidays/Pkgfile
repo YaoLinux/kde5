@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules python kdoctools kitemviews
+makedepends=(extra-cmake-modules python kdoctools kitemviews)
 
 description="C++ API that determines holiday and other special events for a geographical region"
 url="https://projects.kde.org/projects/kde/pim"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kholidays
 version=5.56.0
