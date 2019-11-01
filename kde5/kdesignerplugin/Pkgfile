@@ -1,9 +1,9 @@
-# Depends on: kcompletion kconfigwidgets kiconthemes kio kitemviews kplotting ktextwidgets kxmlgui sonnet kdoctools
+makedepends=(kcompletion kconfigwidgets kiconthemes kio kitemviews kplotting ktextwidgets kxmlgui sonnet kdoctools)
 
 description="Integration of Frameworks widgets in Qt Designer/Creator "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kdesignerplugin
 version=5.56.0
