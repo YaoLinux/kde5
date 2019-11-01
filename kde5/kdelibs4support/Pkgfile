@@ -1,9 +1,9 @@
-# Depends on: kded kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdesignerplugin kglobalaccel kguiaddons ki18n kiconthemes kio kitemviews kjobwidgets knotifications kparts kservice ktextwidgets kunitconversion kwidgetsaddons kwindowsystem kxmlgui solid kdoctools kemoticons kinit kitemmodels kdoctools openssl perl-uri networkmanager
+makedepends=(kded kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdesignerplugin kglobalaccel kguiaddons ki18n kiconthemes kio kitemviews kjobwidgets knotifications kparts kservice ktextwidgets kunitconversion kwidgetsaddons kwindowsystem kxmlgui solid kdoctools kemoticons kinit kitemmodels kdoctools openssl perl-uri networkmanager)
 
 description="Porting aid from KDELibs4 "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kdelibs4support
 version=5.56.0
