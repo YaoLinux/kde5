@@ -1,9 +1,9 @@
-# Depends on: qtbase extra-cmake-modules kparts kdoctools python hicolor-icon-theme
+makedepends=(qtbase extra-cmake-modules kparts kdoctools python hicolor-icon-theme)
 
 description="A multimedia player where the focus is on simplicity"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=dragon
 version=18.12.3
