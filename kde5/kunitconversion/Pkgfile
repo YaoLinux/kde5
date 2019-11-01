@@ -1,9 +1,9 @@
-# Depends on: ki18n
+makedepends=(ki18n)
 
 description="Support for unit conversion "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kunitconversion
 version=5.56.0
