@@ -1,9 +1,9 @@
-# Depends on: kcoreaddons ki18n
+makedepends=(kcoreaddons ki18n)
 
 description="Pty abstraction "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kpty
 version=5.56.0
