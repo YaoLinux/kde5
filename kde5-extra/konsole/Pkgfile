@@ -1,9 +1,9 @@
-# Depends on: knotifyconfig kpty extra-cmake-modules kdoctools knotifyconfig kinit kparts knewstuff
+makedepends=(knotifyconfig kpty extra-cmake-modules kdoctools knotifyconfig kinit kparts knewstuff)
 
 description="Terminal emulator from KDE"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=konsole
 version=18.12.3
