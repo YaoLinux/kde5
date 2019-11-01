@@ -2,8 +2,8 @@
 
 description="Library for accessing mail storages in MBox format "
 url="https://projects.kde.org/kmbox"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kmbox
 version=18.12.3
