@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules boost kactivities
+makedepends=(extra-cmake-modules boost kactivities)
 
 description="A library for accessing the usage data collected by the activities system"
 url="https://community.kde.org/Frameworks"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kactivities-stats
 version=5.56.0
