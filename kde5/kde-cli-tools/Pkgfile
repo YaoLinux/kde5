@@ -1,9 +1,9 @@
-# Depends on: kconfig kdoctools kiconthemes kinit ki18n kcmutils kio kservice kwindowsystem kactivities plasma-workspace
+makedepends=(kconfig kdoctools kiconthemes kinit ki18n kcmutils kio kservice kwindowsystem kactivities plasma-workspace)
 
 description="Tools based on KDE Frameworks 5 to better interact with the system "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kde-cli-tools
 version=5.15.2
