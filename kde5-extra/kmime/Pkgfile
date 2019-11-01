@@ -2,8 +2,8 @@
 
 description="Library for handling mail messages and newsgroup articles"
 url="https://projects.kde.org/kmime"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 name=kmime
 version=18.12.3
 
