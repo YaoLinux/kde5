@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules qtdeclarative bluez
+makedepends=(extra-cmake-modules qtdeclarative bluez)
 
 description="Qt wrapper for BlueZ 5 DBus API"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=bluez-qt
 version=5.56.0
