@@ -1,9 +1,9 @@
-# Depends on: desktop-file-utils attica kbookmarks kjobwidgets kwallet solid kerberos
+makedepends=(desktop-file-utils attica kbookmarks kjobwidgets kwallet solid kerberos)
 
 description="Resource and network access abstraction "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 run=(desktop-file-utils)
 
