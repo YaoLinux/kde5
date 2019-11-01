@@ -2,8 +2,8 @@
 
 description="Akonadi calendar integration"
 url="https://projects.kde.org/akonadi-calendar-tools"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=akonadi-calendar-tools
 version=18.12.3
