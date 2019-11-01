@@ -1,9 +1,9 @@
-# Depends on: qtbase akonadi kcontacts extra-cmake-modules kdoctools boost libkdepim kpimtextedit knewstuff kimap
+makedepends=(qtbase akonadi kcontacts extra-cmake-modules kdoctools boost libkdepim kpimtextedit knewstuff kimap)
 
 description="Common libraries for KDE PIM"
 url="https://community.kde.org/KDE_PIM"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=pimcommon
 version=18.12.3
