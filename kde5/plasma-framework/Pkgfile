@@ -1,9 +1,9 @@
-# Depends on: mesa libxcb qtquickcontrols2 qttools extra-cmake-modules kactivities kirigami2 kdeclarative kdoctools kwayland
+makedepends=(mesa libxcb qtquickcontrols2 qttools extra-cmake-modules kactivities kirigami2 kdeclarative kdoctools kwayland)
 
 description="Plasma library and runtime components based upon KF5 and Qt5 "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=plasma-framework
 version=5.56.0
