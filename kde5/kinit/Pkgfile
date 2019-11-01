@@ -1,9 +1,9 @@
-# Depends on: kconfig kcoreaddons kcrash ki18n kservice kwindowsystem libcap kio
+makedepends=(kconfig kcoreaddons kcrash ki18n kservice kwindowsystem libcap kio)
 
 description="Process launcher to speed up launching KDE applications "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kinit
 version=5.56.0
