@@ -1,9 +1,9 @@
-# Depends on: qtscript cmake doxygen
+makedepends=(qtscript cmake doxygen)
 
 description="A string template engine based on the Django template system and written in Qt5"
 url="https://www.gitorious.org/grantlee/pages/Home"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=grantlee-qt
 version=5.1.0
