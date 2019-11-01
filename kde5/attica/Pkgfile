@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules qtbase
+makedepends=(extra-cmake-modules qtbase)
 
 description="Open Collaboration Services API"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=attica
 version=5.56.0
