@@ -1,9 +1,9 @@
-# Depends on: lmdb attr kauth kconfig kcoreaddons kcrash kdbusaddons kfilemetadata ki18n kidletime kio solid hicolor-icon-theme xdg-utils
+makedepends=(lmdb attr kauth kconfig kcoreaddons kcrash kdbusaddons kfilemetadata ki18n kidletime kio solid hicolor-icon-theme xdg-utils)
 
 description="A framework for searching and managing metadata"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 run=(xdg-utils)
 
