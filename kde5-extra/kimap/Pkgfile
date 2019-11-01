@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules python kdoctools kmime boost cyrus-sasl kcoreaddons ki18n kio 
+makedepends=(extra-cmake-modules python kdoctools kmime boost cyrus-sasl kcoreaddons ki18n kio )
 
 description="Job-based API for interacting with IMAP servers "
 url="https://projects.kde.org/projects/kde/pim/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kimap
 version=18.12.3
