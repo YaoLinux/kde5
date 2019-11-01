@@ -1,9 +1,9 @@
-# Depends on: kcoreaddons kwidgetsaddons qtx11extras
+makedepends=(kcoreaddons kwidgetsaddons qtx11extras)
 
 description="Widgets for tracking KJob instances "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kjobwidgets
 version=5.56.0
