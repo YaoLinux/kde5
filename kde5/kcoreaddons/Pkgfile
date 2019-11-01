@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules qtbase qttools shared-mime-info
+makedepends=(extra-cmake-modules qtbase qttools shared-mime-info)
 
 description="Addons to QtCore "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 run=(shared-mime-info)
 name=kcoreaddons
