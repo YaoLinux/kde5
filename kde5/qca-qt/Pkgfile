@@ -2,8 +2,8 @@
 
 description="Qt5 Cryptographic Architecture"
 url="http://delta.affinix.com/qca/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=qca-qt
 version=2.1.3
