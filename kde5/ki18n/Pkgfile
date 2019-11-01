@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules qtdeclarative qtscript
+makedepends=(extra-cmake-modules qtdeclarative qtscript)
 
 description="Advanced internationalization framework "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=ki18n
 version=5.56.0
