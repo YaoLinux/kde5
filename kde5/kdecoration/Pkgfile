@@ -1,9 +1,9 @@
-# Depends on: ki18n
+makedepends=(ki18n)
 
 description="Plugin based library to create window decorations "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kdecoration
 version=5.15.2
