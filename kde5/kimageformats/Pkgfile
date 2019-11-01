@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules qtbase openexr karchive
+makedepends=(extra-cmake-modules qtbase openexr karchive)
 
 description="Image format plugins for Qt5 "
 url="https://www.kde.org/"
-packager="rems at nutyx dot org"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kimageformats
 version=5.56.0
