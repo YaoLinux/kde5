@@ -1,9 +1,9 @@
-# Depends on: kmenuedit
+makedepends=(kmenuedit)
 
 description="Provides integration plugins for various KDE frameworks for the wayland windowing system "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kwayland-integration
 version=5.15.2
