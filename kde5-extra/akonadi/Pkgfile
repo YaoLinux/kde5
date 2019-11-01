@@ -2,8 +2,8 @@
 
 description="PIM layer, which provides an asynchronous API to access all kind of PIM data "
 url="https://projects.kde.org/akonadi"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 run=(sqlite shared-mime-info)
 
