@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules python kio
+makedepends=(extra-cmake-modules python kio)
 
 description="S/Atom parser library"
 url="https://projects.kde.org/syndication"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=syndication
 version=5.56.0
