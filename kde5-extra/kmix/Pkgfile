@@ -1,9 +1,9 @@
-# Depends on: alsa-lib pulseaudio libcanberra extra-cmake-modules plasma-framework kdelibs4support kdoctools
+makedepends=(alsa-lib pulseaudio libcanberra extra-cmake-modules plasma-framework kdelibs4support kdoctools)
 
 description="KDE volume control program"
 url="http://kde.org/applications/multimedia/kmix/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kmix
 version=18.12.3
