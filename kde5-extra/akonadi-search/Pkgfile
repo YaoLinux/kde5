@@ -1,9 +1,9 @@
-# Depends on: extra-cmake-modules boost kdoctools kdelibs4support xapian akonadi ki18n kconfig kcrash  kcontacts kmime kcalcore kcmutils krunner akonadi-mime
+makedepends=(extra-cmake-modules boost kdoctools kdelibs4support xapian akonadi ki18n kconfig kcrash  kcontacts kmime kcalcore kcmutils krunner akonadi-mime)
 
 description="Libraries and daemons to implement searching in Akonadi"
 url="https://projects.kde.org/akonadi"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=akonadi-search
 version=18.12.3
