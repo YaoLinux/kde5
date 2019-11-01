@@ -1,9 +1,9 @@
-# Depends on: kparts extra-cmake-modules
+makedepends=(kparts extra-cmake-modules)
 
 description="Plugin interface for media player features"
 url="https://www.kde.org/"
-packager="rems at nutyx dot org"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 alias=(kmediaplayer)
 
 name=kmediaplayer
