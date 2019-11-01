@@ -2,8 +2,8 @@
 
 description="FFmpeg-based thumbnail creator for video files"
 url="https://projects.kde.org/projects/kde/applications/FFmpeg-based thumbnail creator for video files"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 name=ffmpegthumbs
 version=18.12.3
 
