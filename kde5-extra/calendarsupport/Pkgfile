@@ -1,9 +1,9 @@
-# Depends on: kdepim-apps-libs pimcommon kholidays akonadi-calendar extra-cmake-modules kdoctools
+makedepends=(kdepim-apps-libs pimcommon kholidays akonadi-calendar extra-cmake-modules kdoctools)
 
 description="Calendar support library"
 url="https://community.kde.org/KDE_PIM"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=calendarsupport
 version=18.12.3
