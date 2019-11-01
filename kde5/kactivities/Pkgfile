@@ -1,9 +1,9 @@
-# Depends on: qtbase boost kcmutils kconfig kconfigwidgets kcoreaddons kdbusaddons kdeclarative kglobalaccel ki18n kio kservice kwindowsystem kxmlgui
+makedepends=(qtbase boost kcmutils kconfig kconfigwidgets kcoreaddons kdbusaddons kdeclarative kglobalaccel ki18n kio kservice kwindowsystem kxmlgui)
 
 description="Runtime and library to organize the user work in separate activities"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kactivities
 version=5.56.0
