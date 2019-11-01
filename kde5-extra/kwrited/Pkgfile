@@ -1,9 +1,9 @@
-# Depends on: kwayland-integration
+makedepends=(kwayland-integration)
 
 description="Manages the power consumption settings of a Plasma Shell"
 url="https://www.kde.org/"
-packager="thut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kwrited
 version=5.15.2
