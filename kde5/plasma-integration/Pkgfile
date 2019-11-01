@@ -1,9 +1,9 @@
-# Depends on: xorg-libxcursor noto-fonts ttf-hack kio kwayland breeze
+makedepends=(xorg-libxcursor noto-fonts ttf-hack kio kwayland breeze)
 
 description="Qt Platform Theme integration plugins for the Plasma workspaces"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=plasma-integration
 version=5.15.2
