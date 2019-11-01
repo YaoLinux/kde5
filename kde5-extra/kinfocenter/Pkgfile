@@ -1,9 +1,9 @@
-# Depends on: oxygen
+makedepends=(oxygen)
 
 description="A utility that provides information about a computer system "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kinfocenter
 version=5.15.2
