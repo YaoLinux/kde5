@@ -1,9 +1,9 @@
-# Depends on: kcoreaddons  polkit-qt
+makedepends=(kcoreaddons  polkit-qt)
 
 description="Abstraction to system policy and authentication features "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=kauth
 version=5.56.0
