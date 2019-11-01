@@ -1,9 +1,9 @@
-# Depends on: kcompletion kconfig ki18n kio phonon-qt
+makedepends=(kcompletion kconfig ki18n kio phonon-qt)
 
 description="Configuration system for KNotify "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=knotifyconfig
 version=5.56.0
