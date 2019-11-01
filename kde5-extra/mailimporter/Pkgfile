@@ -1,9 +1,9 @@
-# Depends on: libkdepim extra-cmake-modules kdoctools boost
+makedepends=(libkdepim extra-cmake-modules kdoctools boost)
 
 description="Mail importer library"
 url="https://community.kde.org/KDE_PIM"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=mailimporter
 version=18.12.3
