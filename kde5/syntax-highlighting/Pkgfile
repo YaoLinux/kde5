@@ -1,9 +1,9 @@
-# Depends on: qtbase qtxmlpatterns extra-cmake-modules
+makedepends=(qtbase qtxmlpatterns extra-cmake-modules)
 
 description="Syntax highlighting engine for structured text and code"
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=syntax-highlighting
 version=5.56.0
