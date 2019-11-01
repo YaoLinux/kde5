@@ -9,10 +9,12 @@ maintainer="rems"
 name=qca-qt
 version=2.2.1
 
-source=(http://download.kde.org/stable/qca/$version/src/qca-$version.tar.xz)
+source=(http://download.kde.org/stable/qca/$version/qca-$version.tar.xz)
 
 build() {
+
 mkdir build && cd build
+
 cmake ../qca-$version             \
     -DCMAKE_INSTALL_PREFIX=/usr   \
     -DBUILD_TESTS=OFF             \
@@ -21,7 +23,6 @@ cmake ../qca-$version             \
 
 make
 make DESTDIR=$PKG install
-
 }
 
 uptodate() {
