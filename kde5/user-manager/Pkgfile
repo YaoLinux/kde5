@@ -1,9 +1,9 @@
-# Depends on: kio libpwquality kcmutils
+makedepends=(kio libpwquality kcmutils)
 
 description="A simple system settings module to manage the users of your system "
 url="https://www.kde.org/"
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre B"
+packager="Yaolinux Team"
+maintainer="rems"
 
 name=user-manager
 version=5.15.2
