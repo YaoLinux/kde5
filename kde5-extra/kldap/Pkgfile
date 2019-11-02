@@ -1,9 +1,11 @@
-# Depends on : extra-cmake-modules python ki18n kcompletion cyrus-sasl kio kmbox
+makedepends=(extra-cmake-modules python ki18n kcompletion cyrus-sasl kio kmbox)
 
 description="LDAP access API for KDE "
 url="https://projects.kde.org/kldap"
+
 packager="Yaolinux Team"
 maintainer="rems"
+
 name=kldap
 version=19.08.2
 
