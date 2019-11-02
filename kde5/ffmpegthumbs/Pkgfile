@@ -1,19 +1,19 @@
-# Depends on : extra-cmake-modules kdoctools kio ffmpeg
+makedepends=(extra-cmake-modules kdoctools kio ffmpeg)
 
 description="FFmpeg-based thumbnail creator for video files"
 url="https://projects.kde.org/projects/kde/applications/FFmpeg-based thumbnail creator for video files"
+
 packager="Yaolinux Team"
 maintainer="rems"
+
 name=ffmpegthumbs
 version=19.08.2
 
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
-cd $name-$version
 
-mkdir build
-cd build
+mkdir build && cd build
 
 export PKG_CONFIG_PATH="/usr/lib/ffmpeg2.8/pkgconfig"  
 
@@ -21,7 +21,8 @@ cmake -DCMAKE_BUILD_TYPE=Release  \
       -DCMAKE_INSTALL_PREFIX=/usr \
       -DSYSCONF_INSTALL_DIR=/etc  \
       -DPLUGIN_INSTALL_DIR=/usr/lib/qt/plugins \
-      -DKDE_INSTALL_LIBDIR=lib ..
+      -DKDE_INSTALL_LIBDIR=lib \
+      ../$name-$version
 
 make
 make DESTDIR=$PKG install
