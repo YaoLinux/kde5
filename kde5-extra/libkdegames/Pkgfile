@@ -1,4 +1,4 @@
-# Depends on : extra-cmake-modules kdoctools kdelibs4support kdeclarative kdnssd knewstuff openal
+makedepends=(extra-cmake-modules kdoctools kdelibs4support kdeclarative kdnssd knewstuff openal)
 
 description="Common code and data for many KDE games"
 url="https://projects.kde.org/projects/kde/kdegames/libkdegames"
