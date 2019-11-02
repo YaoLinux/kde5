@@ -1,4 +1,4 @@
-makedepends=(kdoctools krunner)
+makedepends=(kdoctools krunner kitemmodels)
 
 description="A dedicated search application built on top of Baloo "
 url="https://www.kde.org/"
