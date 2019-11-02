@@ -1,9 +1,11 @@
-# Depends on : extra-cmake-modules python kdoctools kcalutils kcontacts
+makedepends=(extra-cmake-modules python kdoctools kcalutils kcontacts)
 
 description="API for handling TNEF data "
 url="https://projects.kde.org/projects/kde/pim/"
+
 packager="Yaolinux Team"
 maintainer="rems"
+
 name=ktnef
 version=19.08.2
 
