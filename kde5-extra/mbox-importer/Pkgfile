@@ -1,7 +1,8 @@
-# Depends on : boost extra-cmake-modules mailcommon 
+makedepends=(boost extra-cmake-modules mailcommon)
 
 description="Import mbox files to KMail"
 url="https://projects.kde.org/mbox-importer"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
