@@ -1,7 +1,8 @@
-# Depends on : extra-cmake-modules python kdoctools libical kdelibs4support
+makedepends=(extra-cmake-modules python kdoctools libical kdelibs4support)
 
 description="The KDE calendar access library "
 url="https://projects.kde.org/kcalcore"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
