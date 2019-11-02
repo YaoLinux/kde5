@@ -1,7 +1,8 @@
-# Depends on : boost extra-cmake-modules kdoctools messagelib libksieve
+makedepends=(boost extra-cmake-modules kdoctools messagelib libksieve)
 
 description="Mail sieve editor"
 url="https://projects.kde.org/pim-sieve-editor"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
