@@ -1,4 +1,4 @@
-# Depends on : extra-cmake-modules python boost kdoctools kdelibs4support kmime
+makedepends=(extra-cmake-modules python boost kdoctools kdelibs4support kmime)
 
 description="Library for accessing mail storages in MBox format "
 url="https://projects.kde.org/kmbox"
