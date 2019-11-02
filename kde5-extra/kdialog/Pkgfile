@@ -1,9 +1,11 @@
-# Depends on : extra-cmake-modules python ktextwidgets kconfigwidgets knotifications kguiaddons kiconthemes kwindowsystem kio kdbusaddons
+makedepends=(extra-cmake-modules python ktextwidgets kconfigwidgets knotifications kguiaddons kiconthemes kwindowsystem kio kdbusaddons)
 
 description="A utility for displaying dialog boxes from shell scripts"
 url="http://kde.org/applications/games/kpatience/"
+
 packager="Yaolinux Team"
 maintainer="rems"
+
 run=(xdg-utils)
 
 name=kdialog
