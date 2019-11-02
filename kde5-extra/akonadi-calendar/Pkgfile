@@ -1,9 +1,11 @@
-# Depends on : extra-cmake-modules boost kdoctools kdelibs4support kcodecs kio kwallet kmailtransport kcontacts kcalcore kidentitymanagement kcalutils akonadi-contacts
+makedepends=(extra-cmake-modules boost kdoctools kdelibs4support kcodecs kio kwallet kmailtransport kcontacts kcalcore kidentitymanagement kcalutils akonadi-contacts)
 
 description="Akonadi calendar"
 url="https://projects.kde.org/akonadi"
+
 packager="Yaolinux Team"
 maintainer="rems"
+
 name=akonadi-calendar
 version=19.08.2
 
