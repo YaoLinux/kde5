@@ -1,4 +1,4 @@
-makedepends=(xorg-xrdb xorg-xsetroot xorg-xprop xorg-xmessage pm-utils gvfs baloo milou networkmanager-qt plasma-integration kitemmodels kjsembed kwin krunner knotifyconfig kdesu kwallet kdelibs4support ktexteditor kholidays)
+makedepends=(xorg-xrdb xorg-xsetroot xorg-xprop xorg-xmessage pm-utils gvfs baloo milou networkmanager-qt plasma-integration kitemmodels kjsembed kwin krunner knotifyconfig kdesu kwallet kdelibs4support ktexteditor kholidays kactivities-stats)
 
 description="KDE Plasma Workspace"
 url="https://www.kde.org/"
