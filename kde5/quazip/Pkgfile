@@ -1,0 +1,35 @@
+makedepends=(qtbase cmake)
+
+description="C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package"
+url="https://stachenov.github.io/quazip/"
+
+packager="Yaolinux Team"
+maintainer="rems"
+
+name=quazip
+version=0.8.1
+
+PKGMK_KEEP_SOURCES="no"
+
+source=(https://github.com/stachenov/$name/archive/v$version.tar.gz)
+
+build() {
+  
+  mkdir -v build && build
+
+   cmake  -DCMAKE_INSTALL_PREFIX=/usr \
+          ../$name-$version
+
+   make
+   make DESTDIR=$PKG install
+   
+# generate pkgconfig
+  cd ../$name-$version/quazip
+ 
+  qmake quazip.pro
+  
+  make pkgconfig/quazip.pc
+  
+  install -Dm 644 pkgconfig/quazip.pc -t "$PKG"/usr/lib/pkgconfig/
+  sed -e 's|-lquazip|-lquazip5|' -i "$PKG"/usr/lib/pkgconfig/quazip.pc
+}
