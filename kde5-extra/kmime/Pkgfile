@@ -1,9 +1,11 @@
-# Depends on : extra-cmake-modules python boost ki18n kcodecs
+makedepends=(extra-cmake-modules python boost ki18n kcodecs)
 
 description="Library for handling mail messages and newsgroup articles"
 url="https://projects.kde.org/kmime"
+
 packager="Yaolinux Team"
 maintainer="rems"
+
 name=kmime
 version=19.08.2
 
