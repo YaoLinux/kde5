@@ -1,4 +1,4 @@
-# Depends on : extra-cmake-modules python kdoctools kcalcore kidentitymanagement
+makedepends=(extra-cmake-modules python kdoctools kcalcore kidentitymanagement)
 
 description="The KDE calendar utility library "
 url="https://projects.kde.org/projects/kde/"
