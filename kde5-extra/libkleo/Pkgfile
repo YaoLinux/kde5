@@ -1,7 +1,8 @@
-# Depends on : extra-cmake-modules boost kpimtextedit qgpgme
+makedepends=(extra-cmake-modules boost kpimtextedit qgpgme)
 
 description="KDE PIM cryptographic library"
 url="https://community.kde.org/KDE_PIM"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
