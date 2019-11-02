@@ -1,4 +1,4 @@
-makedepends=(opencolorio libraw qtmultimedia poppler-qt eigen3 extra-cmake-modules hicolor-icon-theme kdelibs4support libksane libkexiv2)
+makedepends=(opencolorio libraw qtmultimedia quazip poppler-qt eigen3 extra-cmake-modules hicolor-icon-theme kdelibs4support libksane libkexiv2)
 
 description="Painting Application"
 url="https://www.kde.org/"
