@@ -1,7 +1,8 @@
-# Depends on : qtspeech extra-cmake-modules khtml kirigami2 threadweaver kactivities kdelibs4support kpty libkscreen freetype poppler-qt libspectre djvulibre qca-qt libkexiv2 chmlib  zlib ebook-tools kdoctools phonon-qt kdegraphics-mobipocket
+makedepends=(qtspeech extra-cmake-modules khtml kirigami2 threadweaver kactivities kdelibs4support kpty libkscreen freetype poppler-qt libspectre djvulibre qca-qt libkexiv2 chmlib  zlib ebook-tools kdoctools phonon-qt kdegraphics-mobipocket)
    
 description="Document Viewer"
 url="http://www.kde.org"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
