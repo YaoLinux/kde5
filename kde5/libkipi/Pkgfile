@@ -1,7 +1,8 @@
-# Depends on : extra-cmake-modules kxmlgui hicolor-icon-theme python
+makedepends=(extra-cmake-modules kxmlgui hicolor-icon-theme python)
 
 description="An interface to use kipi-plugins from a KDE application"
 url="https://projects.kde.org/projects/kde/kdegraphics/libs/libkipi"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
