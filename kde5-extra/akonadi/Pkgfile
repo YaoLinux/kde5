@@ -1,7 +1,8 @@
-# Depends on : shared-mime-info extra-cmake-modules postgresql kdesignerplugin qttools boost kio kitemmodels sqlite
+makedepends=(shared-mime-info extra-cmake-modules postgresql kdesignerplugin qttools boost kio kitemmodels sqlite)
 
 description="PIM layer, which provides an asynchronous API to access all kind of PIM data "
 url="https://projects.kde.org/akonadi"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
