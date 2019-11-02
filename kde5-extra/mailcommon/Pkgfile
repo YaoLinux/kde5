@@ -1,7 +1,8 @@
-# Depends on : mailimporter messagelib extra-cmake-modules kdoctools boost qttools kdesignerplugin
+makedepends=(mailimporter messagelib extra-cmake-modules kdoctools boost qttools kdesignerplugin)
 
 description="KDE PIM library providing support for mail applications "
 url="https://community.kde.org/KDE_PIM"
+
 packager="Yaolinux Team"
 maintainer="rems"
 
