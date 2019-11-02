@@ -1,4 +1,4 @@
-makedepends=(qtbase karchive kbookmarks kcodecs kconfig kconfigwidgets kcoreaddons kdbusaddons kdelibs4support kdnssd kguiaddons khtml ki18n kiconthemes kimageformats kio kparts kpty kservice kxmlgui solid libjpeg-turbo exiv2 libmtp phonon-qt samba shared-mime-info kactivities openexr openssh)
+makedepends=(qtbase karchive kbookmarks kcodecs kconfig kconfigwidgets kcoreaddons kdbusaddons kdelibs4support kdnssd kguiaddons khtml ki18n kiconthemes kimageformats kio kparts kpty kservice kxmlgui solid libjpeg2-turbo exiv2 libmtp phonon-qt samba shared-mime-info kactivities openexr openssh syntax-highlighting)
 
 description="Additional components to increase the functionality of KIO "
 url="https://www.kde.org/"
