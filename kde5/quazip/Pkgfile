@@ -15,7 +15,7 @@ source=(https://github.com/stachenov/$name/archive/v$version.tar.gz)
 
 build() {
   
-  mkdir -v build && build
+  mkdir -v build && cd build
 
    cmake  -DCMAKE_INSTALL_PREFIX=/usr \
           ../$name-$version
