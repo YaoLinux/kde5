@@ -2,10 +2,11 @@ makedepends=(opencolorio libraw qtmultimedia poppler-qt eigen3 extra-cmake-modul
 
 description="Painting Application"
 url="https://www.kde.org/"
+
 packager="Yaolinux Team"
 
 name=krita
-version=4.1.7
+version=4.2.7.1
 
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
 
