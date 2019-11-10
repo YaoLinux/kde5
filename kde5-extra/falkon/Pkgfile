@@ -1,0 +1,35 @@
+makedepends=(qtwebengine qtx11extras qtsvg extra-cmake-modules qttools libgnome-keyring shiboken2 ki18n)
+
+packager="Yaolinux Team"
+maintainer="rems"
+
+description="Cross-platform QtWebEngine browser"
+url="https://www.falkon.org/"
+
+name=falkon
+version=3.1.0
+
+source=(https://download.kde.org/stable/$name/${version%.*}/$name-$version.tar.xz
+        https://cgit.kde.org/falkon.git/patch/?id=479933e0)
+
+prepare(){
+
+mv ?id=479933e0 falkon-pyside-5.12.2.patch
+
+  cd $name-$version
+     patch -p1 -i ../falkon-pyside-5.12.2.patch # Fix build with PySide 5.12.2
+
+  cd ..
+  mkdir -pv build
+}
+
+build() {
+  cd build
+  cmake ../$name-$version \
+      -DCMAKE_INSTALL_PREFIX=/usr \
+      -DCMAKE_BUILD_TYPE=Release  \
+      -DBUILD_TESTING=OFF
+
+make
+make DESTDIR="$PKG" install
+}
