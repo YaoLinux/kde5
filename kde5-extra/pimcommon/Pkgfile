@@ -1,4 +1,4 @@
-makedepends=(qtbase akonadi kcontacts extra-cmake-modules kdoctools boost libkdepim kpimtextedit knewstuff kimap)
+makedepends=(qtbase akonadi kcontacts extra-cmake-modules kdoctools boost libkdepim kpimtextedit knewstuff kimap purpose)
 
 description="Common libraries for KDE PIM"
 url="https://community.kde.org/KDE_PIM"
