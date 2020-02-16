@@ -1,4 +1,4 @@
-makedepends=(extra-cmake-modules boost kdoctools akonadi kcalcore kcalutils kholidays kidentitymanagement)
+makedepends=(extra-cmake-modules boost kdoctools akonadi kcalendarcore kcalutils kholidays kidentitymanagement)
 
 description="Library to provides access and handling of KAlarm calendar data "
 url="https://projects.kde.org/kalarcal"
@@ -6,9 +6,9 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=kalarmcal
-version=19.08.2
+version=19.12.2
 
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build=kde5
 
