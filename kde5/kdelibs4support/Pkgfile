@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=kdelibs4support
-version=5.63.0
+version=5.67.0
 
 source=(http://download.kde.org/stable/frameworks/${version%.*}/portingAids/$name-$version.tar.xz)
 
