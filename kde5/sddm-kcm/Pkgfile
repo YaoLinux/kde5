@@ -1,0 +1,24 @@
+description="KDE Config Module for SDDM"
+url="https://www.kde.org/workspaces/plasmadesktop/"
+
+packager="Yaolinux Team"
+maintainer="rems"
+
+name="sddm-kcm"
+version="5.17.5"
+
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+makedepends=(sddm xorg-libxcursor knewstuff extra-cmake-modules kdoctools)
+
+build() {
+
+mkdir -v build && cd build
+
+cmake -DBUILD_TESTING=OFF \
+      ../$name-$version
+
+make
+make DESTDIR=$PKG install
+
+}
