@@ -1,4 +1,4 @@
-makedepends=(shared-mime-info extra-cmake-modules boost kcodecs akonadi kdelibs4support kio kcompletion kcodecs phonon-qt kcontacts kcalcore kmime ki18n kitemviews kconfig solid qtbase kldap kmbox grantlee-qt)
+makedepends=(shared-mime-info extra-cmake-modules boost kcodecs akonadi kdelibs4support kio kcompletion kcodecs phonon-qt kcontacts kcalendarcore kmime ki18n kitemviews kconfig solid qtbase kldap kmbox grantlee-qt)
 
 description="Akonadi mime "
 url="https://projects.kde.org/kdepimlibs"
@@ -8,9 +8,9 @@ maintainer="rems"
 run=(shared-mime-info)
 
 name=akonadi-mime
-version=19.08.2
+version=19.12.2
 
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build=kde5
 
