@@ -1,4 +1,4 @@
-makedepends=(extra-cmake-modules prison boost kcodecs akonadi kdelibs4support kio kcompletion kcodecs phonon-qt kcontacts kcalcore kmime ki18n kitemviews kconfig solid qtbase kldap kmbox grantlee-qt qtwebengine akonadi-mime)
+makedepends=(extra-cmake-modules prison boost kcodecs akonadi kdelibs4support kio kcompletion kcodecs phonon-qt kcontacts kcalendarcore kmime ki18n kitemviews kconfig solid qtbase kldap kmbox grantlee-qt qtwebengine akonadi-mime)
 
 description="Akonadi contacts "
 url="https://projects.kde.org/kdepimlibs"
@@ -7,9 +7,9 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=akonadi-contacts
-version=19.08.2
+version=19.12.2
 
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build=kde5
 
