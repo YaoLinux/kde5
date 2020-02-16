@@ -6,9 +6,9 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=dragon
-version=19.08.2
+version=19.12.2
 
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 cd $name-$version
