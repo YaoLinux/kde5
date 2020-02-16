@@ -1,4 +1,4 @@
-makedepends=(cyrus-sasl kcalcore kcontacts extra-cmake-modules kdoctools qtwebengine qttools)
+makedepends=(cyrus-sasl kcalendarcore kcontacts extra-cmake-modules kdoctools qtwebengine qttools)
 
 description="A KDE-based library for accessing various Google services via their public API "
 url="https://projects.kde.org/projects/extragear/libs/libkgapi"
@@ -7,9 +7,9 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=libkgapi
-version=19.08.2
+version=19.12.2
 
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build=kde5
 
