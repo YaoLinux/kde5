@@ -1,15 +1,15 @@
-makedepends=(extra-cmake-modules boost kdoctools kxmlrpcclient syndication kcalcore)
+makedepends=(extra-cmake-modules boost kdoctools kxmlrpcclient syndication kcalendarcore)
 
 description="A blogging library for KDE "
 url="https://projects.kde.org/kblog"
 packager="Yaolinux Team"
 maintainer="rems"
 name=kblog
-version=19.08.2
+version=19.12.2
 
 build="kde5"
 
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 uptodate() {
 feed=https://github.com/KDE/$name/releases.atom 
