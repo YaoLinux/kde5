@@ -5,15 +5,14 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name="qtcreator"
-version="4.10.2"
-release=2
+version="4.11.1"
 
 source=(https://download.qt.io/official_releases/qtcreator/${version%.*}/$version/qt-creator-opensource-src-$version.tar.xz
         qtcreator-preload-plugins.patch)
 
-makedepends=(qttools qtquickcontrols qtquickcontrols2 qtwebengine qtmultimedia gdb ki18n llvm syntax-highlighting qbs desktop-file-utils)
+makedepends=(qttools qtquickcontrols qtquickcontrols2 qtwebengine qtmultimedia qttranslations gdb llvm syntax-highlighting qbs desktop-file-utils)
 
-run=(qtmultimedia gdb ki18n)
+run=(qtmultimedia gdb qttranslations)
 
 prepare() {
 
