@@ -1,4 +1,4 @@
-makedepends=(extra-cmake-modules boost kdoctools kdelibs4support xapian akonadi ki18n kconfig kcrash  kcontacts kmime kcalcore kcmutils krunner akonadi-mime)
+makedepends=(extra-cmake-modules boost kdoctools kdelibs4support xapian akonadi ki18n kconfig kcrash  kcontacts kmime kcalendarcore kcmutils krunner akonadi-mime)
 
 description="Libraries and daemons to implement searching in Akonadi"
 url="https://projects.kde.org/akonadi"
@@ -6,9 +6,9 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=akonadi-search
-version=19.08.2
+version=19.12.2
 
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build=kde5
 
