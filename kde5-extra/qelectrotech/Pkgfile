@@ -1,0 +1,29 @@
+description="An electric diagram editor"
+url="https://qelectrotech.org/"
+
+packager="Yaolinux Team"
+maintainer="rems"
+
+name="qelectrotech"
+version="0.7.0"
+
+PKGMK_KEEP_SOURCES="no"
+
+source=(https://github.com/qelectrotech/qelectrotech-source-mirror/archive/$version.tar.gz
+        install-dir.patch)
+
+makedepends=(qtsvg hicolor-icon-theme desktop-file-utils tk kcoreaddons kwidgetsaddons)
+
+build() {
+
+cd $name-source-mirror-$version
+
+patch -p1 < ../install-dir.patch
+
+sed -i 's/gzip \-9n/gzip -9nf/' "man/compress_man_pages.sh"
+
+qmake
+
+make
+make INSTALL_ROOT=$PKG install
+}
