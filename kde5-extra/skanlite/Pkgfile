@@ -7,7 +7,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=skanlite
-version=2.1.0.1
+version=2.2.0
 
 source=(http://download.kde.org/stable/$name/${version:0:3}/$name-$version.tar.xz)
 
