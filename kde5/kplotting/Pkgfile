@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=kplotting
-version=5.67.0
+version=5.74.0
 
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
