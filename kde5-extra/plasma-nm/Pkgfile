@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=plasma-nm
-version=5.18.0
+version=5.19.5
 
 run=(mobile-broadband-provider-info)
 
