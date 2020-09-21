@@ -5,7 +5,7 @@ url="https://community.kde.org/KDE_PIM"
 packager="Yaolinux Team"
 maintainer="rems"
 name=grantleetheme
-version=19.12.2
+version=20.08.1
 
 build=kde5
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
