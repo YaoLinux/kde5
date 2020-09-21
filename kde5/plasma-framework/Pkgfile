@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=plasma-framework
-version=5.67.0
+version=5.74.0
 release=3
 
 source=(http://downloads.tuxfamily.org/nutyx/files/kde-wallpaper-nutyx-11.0.tar.xz
