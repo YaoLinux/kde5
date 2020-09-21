@@ -5,7 +5,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name="qbs"
-version="1.14.1"
+version="1.17.0"
 
 source=(https://download.qt.io/official_releases/qbs/$version/qbs-src-$version.tar.gz)
 
