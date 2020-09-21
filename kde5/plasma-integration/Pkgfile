@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=plasma-integration
-version=5.18.0
+version=5.19.5
 release=2
 
 source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
