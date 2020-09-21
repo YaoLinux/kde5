@@ -7,20 +7,12 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=grantlee-qt
-version=5.1.0
+version=5.2.0
 
-source=(http://downloads.grantlee.org/grantlee-$version.tar.gz
-        grantlee-c++11.patch
-        grantlee-qt-5.13.patch)
+source=(http://downloads.grantlee.org/grantlee-$version.tar.gz)
 
 build() {
-  mkdir build 
-  
-  cd grantlee-$version
-  patch -p1 -i ../grantlee-c++11.patch # Fix build with new gcc/Qt combinations
-  patch -p1 -i ../grantlee-qt-5.13.patch # Fix build with Qt 5.13
-  
-  cd ../build
+  mkdir build && cd ../build
 
   cmake ../grantlee-$version \
         -DCMAKE_INSTALL_PREFIX=/usr \
