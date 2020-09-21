@@ -5,7 +5,7 @@ url="https://projects.kde.org/projects/kde/kdegames/libkdegames"
 packager="Yaolinux Team"
 maintainer="rems"
 name=libkdegames
-version=19.12.2
+version=20.08.1
 
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
