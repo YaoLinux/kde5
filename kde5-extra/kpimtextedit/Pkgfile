@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=kpimtextedit
-version=19.12.2
+version=20.08.1
 
 build=kde5
 
