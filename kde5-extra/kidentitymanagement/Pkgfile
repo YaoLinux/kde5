@@ -5,7 +5,7 @@ url="https://projects.kde.org/projects/kde/pim/"
 packager="Yaolinux Team"
 maintainer="rems"
 name=kidentitymanagement
-version=19.12.2
+version=20.08.1
 
 build=kde5
 
