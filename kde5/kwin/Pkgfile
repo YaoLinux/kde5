@@ -1,4 +1,4 @@
-makedepends=(libinput qtsensors qtmultimedia qtquickcontrols qtvirtualkeyboard kscreenlocker plasma-framework kcmutils breeze kinit xcb-util-cursor knewstuff)
+makedepends=(libinput qtsensors qtmultimedia qtquickcontrols qtvirtualkeyboard kscreenlocker plasma-framework kcmutils breeze kinit xcb-util-cursor knewstuff kwayland-server)
 
 description="KDE Window manager "
 url="https://www.kde.org/"
