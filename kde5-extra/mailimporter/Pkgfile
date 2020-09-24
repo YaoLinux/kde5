@@ -1,4 +1,4 @@
-makedepends=(libkdepim extra-cmake-modules kdoctools boost)
+makedepends=(pimcommon extra-cmake-modules kdoctools boost)
 
 description="Mail importer library"
 url="https://community.kde.org/KDE_PIM"
