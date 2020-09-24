@@ -1,4 +1,4 @@
-makedepends=(extra-cmake-modules kdoctools plasma-framework qtwebengine)
+makedepends=(extra-cmake-modules kdoctools plasma-framework qtwebengine knewstuff)
 
 description="Libksysguard "
 url="https://www.kde.org/"
