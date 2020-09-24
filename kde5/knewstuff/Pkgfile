@@ -1,4 +1,4 @@
-makedepends=(attica karchive kcompletion kconfig kcoreaddons ki18n kiconthemes kio kitemviews kservice ktextwidgets kxmlgui)
+makedepends=(attica karchive kcompletion kconfig kcoreaddons ki18n kiconthemes kio kitemviews kservice ktextwidgets kxmlgui kpackage)
 
 description="Support for downloading application assets from the network "
 url="https://www.kde.org/"
