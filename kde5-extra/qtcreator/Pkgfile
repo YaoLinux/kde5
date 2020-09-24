@@ -7,8 +7,7 @@ maintainer="rems"
 name="qtcreator"
 version="4.13.1"
 
-source=(https://download.qt.io/official_releases/qtcreator/${version%.*}/$version/qt-creator-opensource-src-$version.tar.xz
-        qtcreator-preload-plugins.patch)
+source=(https://download.qt.io/official_releases/qtcreator/${version%.*}/$version/qt-creator-opensource-src-$version.tar.xz)
 
 makedepends=(qttools qtquickcontrols qtquickcontrols2 qtwebengine qtmultimedia qttranslations gdb llvm syntax-highlighting qbs desktop-file-utils)
 
@@ -26,7 +25,6 @@ sed -e 's|libexec|lib|g' -i src/tools/tools.pro
   # Preload analyzer plugins, since upstream clang doesn't link to all plugins
   # see http://code.qt.io/cgit/clang/clang.git/commit/?id=7f349701d3ea0c47be3a43e265699dddd3fd55cf
   # and https://bugs.archlinux.org/task/59492
-patch -p1 -i ../qtcreator-preload-plugins.patch
 
 cd ..
 mkdir -v build
