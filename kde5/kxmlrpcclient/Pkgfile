@@ -8,7 +8,7 @@ maintainer="rems"
 name=kxmlrpcclient
 version=5.74.0
 
-source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/frameworks/${version%.*}/portingAids/$name-$version.tar.xz)
 
 build=kde5
 
