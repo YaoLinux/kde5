@@ -1,4 +1,4 @@
-makedepends=(kdepim-apps-libs pimcommon kholidays akonadi-calendar extra-cmake-modules kdoctools)
+makedepends=(kdepim-apps-libs pimcommon kholidays akonadi-calendar akonadi-notes extra-cmake-modules kdoctools)
 
 description="Calendar support library"
 url="https://community.kde.org/KDE_PIM"
