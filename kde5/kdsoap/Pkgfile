@@ -1,0 +1,14 @@
+description="Qt-based client-side and server-side SOAP component"
+url="https://github.com/KDAB/KDSoap"
+
+packager="Yaolinux Team"
+maintainer="rems"
+
+name="kdsoap"
+version="1.9.0"
+
+source=(https://github.com/KDAB/KDSoap/releases/download/$name-$version/$name-$version.tar.gz)
+
+makedepends=(qtbase)
+
+build=kde5
