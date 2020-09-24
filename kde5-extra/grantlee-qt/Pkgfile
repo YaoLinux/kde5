@@ -12,7 +12,7 @@ version=5.2.0
 source=(http://downloads.grantlee.org/grantlee-$version.tar.gz)
 
 build() {
-  mkdir build && cd ../build
+  mkdir build && cd build
 
   cmake ../grantlee-$version \
         -DCMAKE_INSTALL_PREFIX=/usr \
