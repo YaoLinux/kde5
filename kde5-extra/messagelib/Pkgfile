@@ -1,4 +1,4 @@
-makedepends=(kdepim-apps-libs kmailtransport kmbox libgravatar akonadi-notes kidentitymanagement extra-cmake-modules kdoctools boost qtbase)
+makedepends=(kdepim-apps-libs kmailtransport kmbox libgravatar akonadi-notes kidentitymanagement extra-cmake-modules kdoctools boost qtbase qca-qt)
 
 description="KDE PIM messaging library"
 url="https://community.kde.org/KDE_PIM"
