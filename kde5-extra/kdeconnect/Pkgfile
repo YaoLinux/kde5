@@ -10,7 +10,7 @@ run=(hicolor-icon-theme qtdeclarative sshfs)
 name=kdeconnect
 version=20.08.1
 
-source=(https://download.kde.org/stable/$name/$version/$name-kde-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-kde-$version.tar.xz)
 
 build() {
 mkdir -pv build
