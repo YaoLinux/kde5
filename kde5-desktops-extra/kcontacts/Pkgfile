@@ -5,7 +5,7 @@ url="https://projects.kde.org/kcontacts"
 packager="Yaolinux Team"
 maintainer="rems"
 name=kcontacts
-version=5.74.0
+version=5.76.0
 
 build=kde5
 
