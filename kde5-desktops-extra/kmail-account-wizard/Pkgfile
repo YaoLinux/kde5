@@ -1,4 +1,4 @@
-makedepends=(extra-cmake-modules qtbase qtspeech kwallet kcmutils knotifyconfig kconfig kservice kdbusaddons kdoctools ktexteditor kcodecs kcrash knotifications akonadi kldap libkdepim kmailtransport kidentitymanagement libkleo pimcommon kmailtransport kimap akonadi-mime kross knewstuff shared-mime-info ki18n)
+makedepends=(extra-cmake-modules qtbase qtspeech kwallet kcmutils knotifyconfig kconfig kservice kdbusaddons kdoctools ktexteditor kcodecs kcrash knotifications akonadi kldap libkdepim kmailtransport kidentitymanagement libkleo gpgme pimcommon kimap akonadi-mime kross knewstuff shared-mime-info ki18n)
 
 description="KMail account wizard"
 url="https://projects.kde.org/kmail-account-wizard"
@@ -8,7 +8,7 @@ maintainer="rems"
 run=(shared-mime-info)
 
 name=kmail-account-wizard
-version=20.08.1
+version=20.12.0
 
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
