@@ -7,7 +7,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=kcalendarcore
-version=5.74.0
+version=5.76.0
 
 build="kde5"
 
