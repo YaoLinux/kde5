@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=knotifyconfig
-version=5.74.0
+version=5.76.0
 
 source=(http://download.kde.org/stable/frameworks/${version%.*}/${name}-$version.tar.xz)
 
