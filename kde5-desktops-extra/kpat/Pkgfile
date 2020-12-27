@@ -1,4 +1,4 @@
-makedepends=(libkdegames extra-cmake-modules kdoctools freecell-solver hicolor-icon-theme)
+makedepends=(libkdegames extra-cmake-modules kdoctools freecell-solver black-hole-solver hicolor-icon-theme)
 
 description="Offers a selection of solitaire card games"
 url="https://www.kde.org/"
@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=kpat
-version=20.08.1
+version=20.12.0
 
 source=(https://download.kde.org/stable/release-service/$version/src/kpat-$version.tar.xz)
 
