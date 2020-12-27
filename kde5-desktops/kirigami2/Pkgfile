@@ -5,7 +5,7 @@ url="https://community.kde.org/Frameworks"
 packager="Yaolinux Team"
 
 name=kirigami2
-version=5.74.0
+version=5.76.0
 release=2
 
 run=(qtgraphicaleffects qtquickcontrols2 qtsvg)
