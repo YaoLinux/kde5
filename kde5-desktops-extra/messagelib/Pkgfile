@@ -1,4 +1,4 @@
-makedepends=(kdepim-apps-libs kmailtransport kmbox libgravatar akonadi-notes kidentitymanagement extra-cmake-modules kdoctools boost qtbase qca-qt)
+makedepends=(kmailtransport kmbox libgravatar kidentitymanagement extra-cmake-modules boost qtbase qca-qt)
 
 description="KDE PIM messaging library"
 url="https://community.kde.org/KDE_PIM"
@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=messagelib
-version=20.08.1
+version=20.12.0
 
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
