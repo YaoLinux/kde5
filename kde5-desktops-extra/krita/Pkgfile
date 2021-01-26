@@ -8,6 +8,7 @@ maintainer="rems"
 
 name=krita
 version=4.4.2
+release=2
 
 source=(https://invent.kde.org/graphics/krita/-/archive/v$version/krita-v$version.tar.gz)
 
