@@ -4,9 +4,10 @@ description="Painting Application"
 url="https://www.kde.org/"
 
 packager="Yaolinux Team"
+maintainer="rems"
 
 name=krita
-version=4.4.2-beta2
+version=4.4.2
 
 source=(https://invent.kde.org/graphics/krita/-/archive/v$version/krita-v$version.tar.gz)
 
