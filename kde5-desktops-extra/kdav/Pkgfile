@@ -6,7 +6,7 @@ packager="Yaolinux Team"
 maintainer="rems"
 
 name=kdav
-version=5.76.0
+version=5.79.0
 
 build=kde5
 
